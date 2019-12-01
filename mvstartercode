@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# moves edX Algorithms python starter code files into the current directory
+# and erases associated folders in downloads
+# and erases all associated .zip files in downloads
+
+mv ~/Downloads/starter_files/* .
+mv ~/Downloads/*.py .
+rm -R ~/Downloads/starter_files/
+rm ~/Downloads/_work_*.zip
